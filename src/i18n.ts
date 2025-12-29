@@ -12,7 +12,11 @@ const i18n = createI18n({
         prev: '← Prev',
         next: 'Next →',
         progress: 'Progress',
-        reveal: 'Tap to reveal'
+        reveal: 'Tap to reveal',
+        menu: 'Menu',
+        backToMenu: '← Topics',
+        categories: 'Topics',
+        allQuestions: 'All Questions'
       }
     },
     de: {
@@ -22,7 +26,11 @@ const i18n = createI18n({
         prev: '← Zurück',
         next: 'Weiter →',
         progress: 'Fortschritt',
-        reveal: 'Tippen zum Aufdecken'
+        reveal: 'Tippen zum Aufdecken',
+        menu: 'Menü',
+        backToMenu: '← Themen',
+        categories: 'Themen',
+        allQuestions: 'Alle Fragen'
       }
     }
   }
