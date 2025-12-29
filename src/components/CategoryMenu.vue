@@ -54,11 +54,11 @@ const emit = defineEmits(['selectCategory'])
 <style scoped>
 .menu-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
   width: 100%;
   max-width: 800px;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .menu-intro {
@@ -125,5 +125,17 @@ const emit = defineEmits(['selectCategory'])
   background: rgba(255, 255, 255, 0.1);
   padding: 2px 8px;
   border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+  
+  .category-card {
+    min-height: 100px;
+    padding: 1rem;
+  }
 }
 </style>
